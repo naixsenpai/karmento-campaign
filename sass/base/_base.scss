@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    color: inherit;
 }
 
 html {
@@ -11,12 +12,51 @@ html {
     // font-size: 31.25%; // 1rem = 5px;
 }
 
+@media (max-width: 1600px) {
+    html {
+        font-size: 55.5%;
+    }
+}
+
+@media (max-width: 1025px) {
+    html {
+        font-size: 50.5%; 
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 41.5%; 
+    }
+}
+
 body {
     box-sizing: border-box;
     font-family: IRANSans, sans-serif;
     overflow: hidden;
-    width: 120px;
-    height: 160px;
+    direction: rtl;
+    padding: 7rem;
+    height: 100vh;
+    width: 100vw;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+@media (max-width: 632px) {
+    body {
+        padding: 4rem; 
+    }
+    html {
+        font-size: 34.5%; 
+    }
+}
+
+
+
+.section-first {
+    position: relative;
+    // animation: fadeOutDown 1.9s ease-in-out;
+    // animation-delay: 5s;
 }
 
 

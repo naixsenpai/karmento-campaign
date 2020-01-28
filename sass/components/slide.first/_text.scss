@@ -1,0 +1,35 @@
+.slide {
+    font-size: 5rem;
+    &__secondary {
+        width: 30%;
+        text-align: justify;
+        font-size: 2rem;
+        color: #666;
+    }
+    &-animation {
+        animation: fadeInDown 5s 1;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (max-width: 1025px) {
+    .slide {
+        font-size: 4rem;
+        &__secondary {
+            width: 40%;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .slide {
+        font-size: 4rem;
+        text-align: center;
+        &__secondary {
+            width: 100%;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    }
+}
