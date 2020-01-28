@@ -1,0 +1,287 @@
+.w {
+    &-100 {
+        width: 100%;
+    }
+
+    &-75 {
+        width: 75%;
+    }
+
+    &-50 {
+        width: 50%;
+    }
+
+    &-25 {
+        width: 25%;
+    }
+}
+
+.u-text {
+    &-center {
+        text-align: center;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-left {
+        text-align: left;
+    }
+}
+
+.u-position {
+    &-a {
+        position: absolute;
+    }
+
+    &-r {
+        position: relative;
+    }
+}
+
+.u-margin {
+    &-xs {
+        margin: .5rem !important;
+    }
+
+    &-s {
+        margin: 1.5rem !important;
+    }
+
+    &-m {
+        margin: 3rem !important;
+    }
+
+    &-l {
+        margin: 5rem !important;
+    }
+
+    &-vert {
+        &-xs {
+            margin: .5rem 0rem !important;
+        }
+
+        &-s {
+            margin: 1.5rem 0rem !important;
+        }
+
+        &-m {
+            margin: 3rem 0rem !important;
+        }
+
+        &-l {
+            margin: 5rem 0rem !important;
+        }
+    }
+
+    &-horz {
+        &-xs {
+            margin: 0rem .5rem !important;
+        }
+
+        &-s {
+            margin: 0rem 1.5rem !important;
+        }
+
+        &-m {
+            margin: 0rem 3rem !important;
+        }
+
+        &-l {
+            margin: 0rem 5rem !important;
+        }
+    }
+
+    &-top {
+        &-xs {
+            margin-top: .5rem !important;
+        }
+        &-s {
+            margin-top: 1.5rem !important;
+        }
+
+        &-m {
+            margin-top: 3rem !important;
+        }
+
+        &-l {
+            margin-top: 5rem !important;
+        }
+    }
+
+    &-bottom {
+        &-xs {
+            margin-bottom: .5rem !important;
+        }
+        &-s {
+            margin-bottom: 1.5rem !important;
+        }
+
+        &-m {
+            margin-bottom: 3rem !important;
+        }
+
+        &-l {
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    &-left {
+        &-xs {
+            margin-left: .5rem !important;
+        }
+        &-s {
+            margin-left: 1.5rem !important;
+        }
+
+        &-m {
+            margin-left: 3rem !important;
+        }
+
+        &-l {
+            margin-left: 5rem !important;
+        }
+    }
+
+    &-right {
+        &-xs {
+            margin-right: .5rem !important;
+        }
+        &-s {
+            margin-right: 1.5rem !important;
+        }
+
+        &-m {
+            margin-right: 3rem !important;
+        }
+
+        &-l {
+            margin-right: 5rem !important;
+        }
+    }
+
+}
+
+.u-padding {
+    &-xs {
+        padding: .5rem !important;
+    }
+
+    &-s {
+        padding: 1.5rem !important;
+    }
+
+    &-m {
+        padding: 3rem !important;
+    }
+
+    &-l {
+        padding: 5rem !important;
+    }
+
+    &-vert {
+        &-xs {
+            padding: .5rem 0rem !important;
+        }
+
+        &-s {
+            padding: 1.5rem 0rem !important;
+        }
+
+        &-m {
+            padding: 3rem 0rem !important;
+        }
+
+        &-l {
+            padding: 5rem 0rem !important;
+        }
+    }
+
+    &-horz {
+        &-xs {
+            padding: 0rem .5rem !important;
+        }
+
+        &-s {
+            padding: 0rem 1.5rem !important;
+        }
+
+        &-m {
+            padding: 0rem 3rem !important;
+        }
+
+        &-l {
+            padding: 0rem 5rem !important;
+        }
+    }
+
+    &-top {
+        &-xs {
+            padding-top: .5rem !important;
+        }
+        &-s {
+            padding-top: 1.5rem !important;
+        }
+
+        &-m {
+            padding-top: 3rem !important;
+        }
+
+        &-l {
+            padding-top: 5rem !important;
+        }
+    }
+
+    &-bottom {
+        &-xs {
+            padding-bottom: .5rem !important;
+        }
+        &-s {
+            padding-bottom: 1.5rem !important;
+        }
+
+        &-m {
+            padding-bottom: 3rem !important;
+        }
+
+        &-l {
+            padding-bottom: 5rem !important;
+        }
+    }
+
+    &-left {
+        &-xs {
+            padding-left: .5rem !important;
+        }
+        &-s {
+            padding-left: 1.5rem !important;
+        }
+
+        &-m {
+            padding-left: 3rem !important;
+        }
+
+        &-l {
+            padding-left: 5rem !important;
+        }
+    }
+
+    &-right {
+        &-xs {
+            padding-right: .5rem !important;
+        }
+        &-s {
+            padding-right: 1.5rem !important;
+        }
+
+        &-m {
+            padding-right: 3rem !important;
+        }
+
+        &-l {
+            padding-right: 5rem !important;
+        }
+    }
+
+}
