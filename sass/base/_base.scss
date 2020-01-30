@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: inherit;
     color: inherit;
+    font-family: inherit;
 }
 
 html {
@@ -42,21 +43,34 @@ body {
     background-color: #fdfdfd;
 }
 
+.section-first {
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    background-color: #fdfdfd;
+}
+
+.section-second {
+    position: fixed;
+    // z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    padding: 7rem;
+    
+}
+
 @media (max-width: 632px) {
     body {
         padding: 4rem; 
     }
+    .section-second {
+        padding: 4rem;
+    }
     html {
         font-size: 34.5%; 
     }
-}
-
-
-
-.section-first {
-    position: relative;
-    // animation: fadeOutDown 1.9s ease-in-out;
-    // animation-delay: 5s;
 }
 
 
