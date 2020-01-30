@@ -85,3 +85,7 @@ const validateFunction = () => {
         btn.classList.add('form-btn-disabled');
     }
 }
+
+setTimeout(function(){
+    document.getElementById('section-first').remove();
+},6000);

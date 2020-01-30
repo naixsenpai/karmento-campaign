@@ -174,3 +174,16 @@
         opacity: 1;
     }
 }
+
+@keyframes sectionFirstBye {
+    from {
+        height: 0px !important;
+        display: none !important;
+    }
+
+    to {
+        height: 0px !important;
+        display: none !important;
+
+    }
+}

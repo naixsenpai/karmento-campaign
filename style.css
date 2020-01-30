@@ -107,6 +107,14 @@
   to {
     opacity: 1; } }
 
+@keyframes sectionFirstBye {
+  from {
+    height: 0px !important;
+    display: none !important; }
+  to {
+    height: 0px !important;
+    display: none !important; } }
+
 *,
 *::after,
 *::before {
@@ -144,9 +152,12 @@ body {
 
 .section-first {
   position: relative;
-  z-index: -1;
   height: 100vh;
-  background-color: #fdfdfd; }
+  background-color: #fdfdfd;
+  animation-name: sectionFirstBye;
+  animation-duration: .1s;
+  animation-delay: 6s;
+  animation-iteration-count: infinite; }
 
 .section-second {
   position: fixed;
@@ -156,11 +167,27 @@ body {
   right: 0;
   padding: 7rem; }
 
+@media (min-width: 1820px) {
+  .section-second {
+    padding: 7rem 40rem; } }
+
+@media (min-width: 1440) {
+  .section-second {
+    padding: 7rem 30rem; } }
+
 @media (max-width: 632px) {
   body {
-    padding: 4rem; }
+    padding: 4rem;
+    overflow: auto; }
+  .section-first {
+    margin-top: 5rem; }
   .section-second {
-    padding: 4rem; }
+    padding: 4rem;
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    height: unset;
+    width: 100%; }
   html {
     font-size: 34.5%; } }
 
@@ -636,8 +663,24 @@ body {
     width: 75%;
     height: 85vh; }
 
+@media (max-width: 768px) {
+  .app-card {
+    width: 95%; } }
+
+@media (max-width: 632px) {
+  .app {
+    width: 90%;
+    margin: 0 auto; }
+    .app-card {
+      height: 65vh;
+      width: 75%; }
+  .form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem; } }
+
 .social-container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   text-align: center; }
 

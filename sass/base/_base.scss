@@ -45,9 +45,12 @@ body {
 
 .section-first {
     position: relative;
-    z-index: -1;
     height: 100vh;
     background-color: #fdfdfd;
+    animation-name: sectionFirstBye;
+    animation-duration: .1s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
 }
 
 .section-second {
@@ -58,15 +61,35 @@ body {
     top: 0;
     right: 0;
     padding: 7rem;
-    
+}
+
+@media (min-width: 1820px) {
+    .section-second {
+        padding: 7rem 40rem;
+    }
+}
+
+@media (min-width: 1440) {
+    .section-second {
+        padding: 7rem 30rem;
+    }
 }
 
 @media (max-width: 632px) {
     body {
-        padding: 4rem; 
+        padding: 4rem;
+        overflow: auto;
+    }
+    .section-first {
+        margin-top: 5rem;
     }
     .section-second {
         padding: 4rem;
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        height: unset;
+        width: 100%;
     }
     html {
         font-size: 34.5%; 

@@ -146,3 +146,27 @@
         height: 85vh;
     }
 }
+
+@media (max-width: 768px) {
+    .app {
+        &-card {
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 632px) {
+    .app {
+        width: 90%;
+        margin: 0 auto;
+        &-card {
+            height: 65vh;
+            width: 75%;
+        }
+    }
+    .form {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 6rem;
+    }
+}
